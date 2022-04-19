@@ -1,7 +1,6 @@
 # dynamic-programming
 
-
-/*Atividade Avaliativa
+Atividade Avaliativa
 Informações
 O super fatorial de um número N é definida pelo produto dos N primeiros fatoriais de N. Assim, o super fatorial de 4 é sf(4) = 1! * 2! * 3! * 4! = 288. 
 Atividade
@@ -15,4 +14,17 @@ Compare os tempos de execução para o programa original com a versão que usa p
 Análise a complexidade Axiomática das soluções
 Pode ser feito na linguagem que desejar
 
-Este programa valerá 70% da nota e o anterior de cruzar o rio 30% */
+Este programa valerá 70% da nota e o anterior de cruzar o rio 30%
+```bash
+
+# output
+------------------------------------- Result -------------------------------------
+
+---- Implementation ----
+Result: 34560
+Time: 0.0367ms
+
+--- Memory implementation ---
+Result: 34560
+Time: 0.0585ms
+```
