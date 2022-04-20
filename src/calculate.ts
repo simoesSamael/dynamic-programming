@@ -1,4 +1,4 @@
-export const calculate = (ft: number): number => {
+export const superCalculateFatorial = (ft: number): number => {
     let rs = 1;
 
     for (let valCurrent = 1; valCurrent <= ft; valCurrent++) {
@@ -11,7 +11,7 @@ export const calculate = (ft: number): number => {
 const calculeFatorial = (ft: number): number => {
     let rs = 1;
     if (ft === 0) return 1;
-  
+    
     for (let valCurrent = 1; valCurrent <= ft; valCurrent++) {
       rs *= valCurrent;
     }

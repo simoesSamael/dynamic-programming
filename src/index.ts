@@ -1,14 +1,14 @@
 import now from 'performance-now';
 
-import { calculate } from './calculate';
+import { superCalculateFatorial } from './calculate';
 import { calculateSuperFatorial } from './calculateSuperFatorial';
 
-//Calculate with the default implementation, simple code just loops through
+// Calculate the superFatorial with the default implementation, simple code just loops through
 const startTime = now();
-const result = calculate(5);
+const result = superCalculateFatorial(5);
 const end = now();
 
-//Calculate the dynamic implementation
+//Calculate the fatorial dynamic implementation
 const vlStartTime = now();
 const vlCalculateFatorial = calculateSuperFatorial();
 const resultCalculateFatorial = vlCalculateFatorial(5);
